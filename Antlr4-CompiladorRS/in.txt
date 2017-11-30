@@ -1,0 +1,12 @@
+module parte1 :
+[ input : [in,in,shit],
+output : [out,out],
+t_signal: [],
+p_signal: [a],
+var : [x,y,z,y],
+initially : [up(a), activate(rules)],
+on_exception:[],
+in#[a] ===> [emit(out)],
+in#[a] ===> [x:=100],
+tick#[c]  ===> [up(a)]
+],

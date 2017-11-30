@@ -1,0 +1,17 @@
+2
+6 3 4 8
+q1 q2 q3 q4 q5 qac
+a b c 
+a b c B
+(q1,a)=(q2,a,P)|(q1,B)=(q2,B,D)
+(q2,a)=(q3,a,D)|(q2,B)=(q3,a,D)
+(q3,a)=(q3,a,D)|(q3,B)=(q,a,D)
+(q3,b)=(q4,b,P)|(q3,B)=(q4,B,E)
+(q4,b)=(q4,b,D)|(q4,a)=(q4,b,E)
+(q4,c)=(q5,c,P)|(q4,B)=(q5,B,D)
+(q5,c)=(q5,c,D)|(q5,b)=(q5,c,D)
+(q5,B)=(qac,B,P)|(q5,B)=(qac,B,P)
+R
+2
+aaabbbccc
+aabbbcc
