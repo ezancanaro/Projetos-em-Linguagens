@@ -1,0 +1,1 @@
+ghc Main2.hs ParserLam2.hs LamExp2.hs
